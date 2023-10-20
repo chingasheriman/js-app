@@ -21,7 +21,7 @@ import { SecurityQuestionModel } from '../models/securityQuestion'
 import { UserModel } from '../models/user'
 import { WalletModel } from '../models/wallet'
 import { Address, Card, Challenge, Delivery, Memory, Product, SecurityQuestion, User } from './types'
-import { NodeVM, VMScript } from 'vm2'
+
 import { Sequelize, DataTypes, Model } from 'sequelize'
 const datacache = require('./datacache')
 const config = require('config')
